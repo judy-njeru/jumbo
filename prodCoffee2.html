@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<title>ROOSTERS - Colombia</title>
+	<script type="text/javascript">
+		var pageNum = 2;
+	</script>
+</head>
+<body>
+	<header id="header" class="productBannerLogo">
+		<div class="nav-wrap clearfix" id="fixedbar">
+				<div class="container clearfix">
+					<div class="logo" id="logo">
+						<a href="index.html" title="Forsíða">Roosters Logo</a>
+					</div>
+					<nav id="navigation">
+						<ul id="fixednav">
+							<li><a href="vorur.html" class="activeNav">PRODUCTS</a></li>
+							<li><a href="login.html">USER</a></li>
+							<li><a id="basketNav" href="basket.html">BASKET</a></li>
+						</ul>
+					</nav>
+				</div><!--container-->
+			</div><!--nav-wrap-->
+	</header>
+	<main>
+		<div class="wrapper productWrapper clearfix">
+			<div class="productText" id="noMargin">
+				<a class="backToProducts" href="vorur.html"><p>< BACK TO PRODUCTS</p></a>
+				<h2>Colombia</h2>
+				<h3>$12.99</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint tenetur, earum facere veniam?</p>
+
+				<div id="roastDiv">
+					<p id="roastCoffee">Roast:</p>
+					<span id="roast0">Please select</span>
+					<span id="roast1">Light</span>
+					<span id="roast2">Medium</span>
+					<span id="roast3">Dark</span>
+					<div id="roastCircles">
+						<div id="circleSelected1" class="circleSelected" onmouseover="displayRoast('roast1', this)" onmouseout="displayRoastHide('roast1', this)" onclick="selectProd('roast1', this)">
+							<div id="circle1" class="circle" ><a href=""></a></div>
+						</div>
+						<div id="circleSelected2" class="circleSelected" onmouseover="displayRoast('roast2', this)" onmouseout="displayRoastHide('roast2', this)" onclick="selectProd('roast2', this)">
+							<div id="circle2" class="circle"><a href=""></a></div>
+						</div>
+						<div id="circleSelected3" class="circleSelected" onmouseover="displayRoast('roast3', this)" onmouseout="displayRoastHide('roast3', this)" onclick="selectProd('roast3', this)">
+							<div id="circle3" class="circle"><a href=""></a></div>
+						</div>
+					</div><!--roastCircles-->
+				</div><!--roastDiv-->
+				<div id="qtyDiv">
+					<p>Quantity:</p>
+					<div id="magn">
+						<button id="magnMinus" onclick="minusOne()">-</button>
+						<div id="magnNumber">1</div>
+						<button id="magnPlus" onclick="plusOne()">+</button>
+					</div><!--magn-->
+				</div><!--qtyDiv-->
+				<div id="roastAlert"></div>
+				<button id="buttonProdPage" class="takki" onclick="addNowRoast(), setTimeout(addedToAddNow, 2000)">ADD NOW</button>
+			</div><!--productText-->
+
+
+			<div id="prodPageImgDiv">
+				<a href="images/colombia1.jpg" data-lightbox="roadtrip"><img class="prodPageImg" src="images/colombia1.jpg"></a>
+				<a href="images/colombia2.jpg" data-lightbox="roadtrip"><img class="prodPageImg" src="images/colombia2-2.jpg"></a>
+				<a href="images/colombia7.jpeg" data-lightbox="roadtrip"><img class="prodPageImg" src="images/colombia7-2.jpg"></a>
+				<a href="images/colombia5.jpeg" data-lightbox="roadtrip"><img class="prodPageImg" src="images/colombia5-2.jpg"></a>
+			</div><!--prodPageImgDiv-->
+		</div><!--wrapper-->
+	</main>
+	<footer class="clearfix" id="footer">
+		<div id="upDiv">
+			<a href="#header" class="up" title="Go back to the top of the page"></a>
+		</div>
+		<div class="row">
+			<div class="column1">
+				<div class="information">
+					<h2> ROOSTERS </h2>
+					<p class="location">Bankastraeti 8</p>
+					<p class="address">101 Reykjavik</p>
+					<p class="country">Iceland</p>
+					<a href="tel:8621562"><p>+354 8621562</p></a>
+					</div><!--close information div-->
+			</div><!--close col-1 div-->
+			<div class="column2">
+				<h3 class="textstyle"> Connect with us:</h3>
+				<div class="socialicons">
+					<ul>
+						<li class="instagram"><a target="_blank" title="Visit our Instagram profile" href="http://instagram.com"></a></li>
+						<li class="twitter"><a target="_blank" title="Visit our Twitter profile" href="http://twitter.com"></a></li>
+						<li class="facebook"><a target="_blank" title="Visit our Facebook profile" href="http://facebook.com"></a></li>
+					</ul>
+				</div><!--close socialicons div-->
+				<div class="intouch">
+					<h4 class="textstyle"> roosters@roosters.is</h4><br>
+					<input type="text" name="regemail" placeholder ="Your email here">
+					<p> Stay updated with ROOSTERS.</p>
+					<p> Sign up for stories,coffee tips and brewing equipment!</p>
+				</div><!--close intouch div-->
+			</div><!--close COL-2 div-->
+		</div><!--close row div-->
+		<div class="bottom">
+			<div id="bottomLeft">
+				<p id="copy">	&copy; 2016 ROOSTERS EHF. All Rights Reserved.</p>
+			</div>
+			<div id="bottomRight">
+				<p id="design">Designed and built by Group Jumbo. </p>
+			</div>
+		</div><!--close bottom div-->
+	</footer>
+
+	<script type="text/javascript" src="javascript/gogn.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+	<script type="text/javascript" src="javascript/lightbox-plus-jquery.js"></script>
+</body>
+</html>

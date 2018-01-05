@@ -1,0 +1,436 @@
+
+/*.....GENERAL STYLING.....*/
+
+html, body {
+    height:100vh;
+  	margin: 0 auto;
+}
+/*TAKKAR*/
+a.button, button.takki {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    background-color: #F75C03;
+    border: 2px solid #F75C03;
+    border-radius: 50px;
+    display: block;
+    text-decoration: none;
+    padding: 14px;
+    width: 105px;
+    text-align: center;
+    margin: 5% auto 5%;
+    outline: none;
+}
+
+/*TAKKAR HOVER*/
+a.button:hover, button.takki:hover{
+    color: #F75C03;
+    border: 2px solid #F75C03;
+    background-color: white;
+    font-size: 14px;
+}
+
+/*.....header styling.....*/
+
+h1 {
+    font-size: 1.8em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+/*.....HEADER STYLING.....*/
+
+/* header */
+
+header .nav-wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(255,255,255, 0);
+    z-index: 500;
+}
+
+header .nav-wrap nav {
+  float: right;
+    margin-top: 20px;
+}
+
+header .container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.productBannerLogo .logo a {
+    width: 70px;
+  background-image: url("../images/logo.png");
+  height: 66px;
+  background-repeat: no-repeat;
+  background-size: 66px;
+  font-size: 0;
+  float: left;
+}
+
+header .nav-wrap {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.headerBanner .logo {
+  width: 70px;
+  background-image: url("../images/logo.png");
+  height: 66px;
+  background-repeat: no-repeat;
+  background-size: 66px;
+  font-size: 0;
+  float: left;
+
+}
+
+
+
+#fixednav ul {
+  text-align: center;
+}
+
+#fixednav li {
+  float: left;
+  margin: 10px 10px 30px 10px;
+  list-style: none;
+  color: #373A39;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+    display: inline-block;
+}
+
+
+
+
+/*.....link state styling.....*/
+
+a:hover {
+    color:#F75C03;
+}
+
+a:active {
+    border-bottom: 1px solid #F75C03;
+    color:#F75C03;
+    padding-bottom: 1px;
+}
+
+/*.....MAIN CONTENT STYLING.....*/
+
+.cont-2 {
+    width:100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top:200px;
+
+}
+
+.cont-2:before {
+    content:'';
+    display: table;
+}
+
+.cont-2:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*.....form styling.....*/
+
+#form {
+
+  padding: 40px;
+  height: 400px;
+  box-shadow: -2px 4px 27px -2px;
+  height: 500px;
+}
+
+#form h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    font-weight: 400;
+    color:#A1A1A1;
+    padding-top: 10px;
+}
+
+#form input  {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+#form input[type=text] {
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#A1A1A1;
+}
+
+#form input[type=password] {
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#A1A1A1;
+}
+
+/*.....sign in.....*/
+
+#signin {
+	width: 40%;
+	margin-left: 24px;
+    float:left;
+    position: relative;
+}
+
+.forgot a {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    font-weight: 400;
+    color:#A1A1A1;
+    float:right;
+    margin-top: -17px;
+}
+/*
+#invalidLogin {
+    color:red;
+    margin-top:20px;
+}
+
+/*.....signup styling.....*/
+
+#signup {
+	float:right;
+	width: 40%;
+	position: relative;
+	margin-right: 24px;
+}
+
+/*.....button styling .....*/
+
+.button {
+    background-color: #F75C03;
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    font-weight: 700;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    float:right;
+    clear:both;
+    outline:none;
+}
+
+#buttonSignIn {
+    clear:both;
+    margin-top:150px;
+}
+
+#buttonSignUp {
+    margin-top:20px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #F75C03;
+    border: 2px solid #F75C03;
+}
+
+/*..... FOOTER STYLING..... */
+
+footer {
+    background-color:#6A2E35;
+    width: 100%;
+    max-height: 482px;
+}
+
+footer:before {
+    content:'';
+    display: table;
+}
+
+footer:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+    height:100%;
+}
+
+.row {
+    width:100%;
+}
+
+.row:before {
+    content:'';
+    display: table;
+}
+
+.row:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    letter-spacing: 7px;
+    font-size: 1.5em;
+}
+
+p, h3, h4{
+    color:#fff;
+}
+
+/* COLUMNS STYLING*/
+
+
+.col-1 {
+    float: left;
+    padding-top: 25px;
+    padding-left:100px;
+    width: 40%;
+}
+
+.col-2 {
+    float: right;
+    text-align: right;
+    line-height: 10px;
+    width: 30%;
+    padding-right:100px;
+        padding-top: 94px;
+        padding-bottom: 24px;
+}
+
+/* NAVIGATION TO TOP OF PAGE STYLING*/
+
+.up {
+    background: url('../images/up.svg') no-repeat;
+    background-size: 26px;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 60px;
+    display: block;
+
+}
+
+.information p{
+    line-height: 150%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight:300;
+    letter-spacing: 1.55px;
+
+}
+/* SOCIALICONS STYLING*/
+
+.socialicons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socialicons ul {
+    position: relative;
+    left: 50px;
+}
+
+.socialicons ul li  {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socialicons .instagram {
+    height: 30px;
+    width: 38px;
+    background: url('../images/instagram1.svg') 50% 50% no-repeat;
+    margin-right: 10px;
+    background-size:28px;
+}
+
+.socialicons .instagram:hover {
+    transform: scale(0.93);
+}
+
+.socialicons .twitter{
+    height: 30px;
+    width: 38px;
+    background: url('../images/twitter.svg') 50% 50% no-repeat;
+    margin-right: 10px;
+    background-size:48px;
+}
+
+.socialicons .twitter:hover {
+    transform: scale(0.93);
+}
+
+.socialicons .facebook{
+    height: 30px;
+    width: 38px;
+    background: url('../images/facebook.svg') 50% 50% no-repeat;
+    margin-right: 40px;
+    background-size:28px;
+}
+
+.socialicons .facebook:hover {
+    transform: scale(0.93);
+}
+
+/* INTOUCH STYLING*/
+.intouch p {
+    font-size: 0.650em;
+    line-height: 18px;
+}
+
+.textstyle {
+   font-size: 1.0em;
+}
+
+.intouch input {
+    width: 56%;
+    margin-bottom: 11px;
+}
+
+/* BOTTOM BAR STYLING*/
+.bottom {
+    background-color: #53272C;
+    height: 65px;
+    width: 100%;
+}
+
+.bottom p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:0.75em;
+}
+
+#copy {
+    float:left;
+    padding-left: 100px;
+    padding-top: 12px;
+
+}
+ #design{
+    float: right;
+    margin-right: 100px;
+    padding-top: 12px;
+}

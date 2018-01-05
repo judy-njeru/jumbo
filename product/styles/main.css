@@ -1,0 +1,629 @@
+/*......GENERAL STYLING.....*/
+
+body {
+        margin: 0 auto;
+        width:100%;
+}
+
+.container {
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:before, .container:after{
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+/*......HEADER STYLING.....*/
+
+.nav-wrap{
+    width:100%;
+}
+
+header {
+    position: fixed;
+    top:0px;
+    right: 0;
+    width: 100%;
+    padding-left:5px;
+    background-color:#fff;
+    margin-right: 100px;
+    z-index:1;
+}
+
+header .logo {
+	width: 30%;
+	background:url('../images/logo.png')50% 50% no-repeat;;
+	height: 60px;
+	background-size: 14%;
+	float:left;
+} 
+
+nav {
+    margin-right:-50px;
+}
+
+nav ul {
+	text-align: right;
+} 
+
+nav ul li {
+	display: inline-block;
+	padding: 20px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a:hover {
+    color:#F75C03;
+}
+
+a:active {
+    border-bottom: 1px solid #F75C03;
+    color:#F75C03;
+    padding-bottom: 1px;
+}
+
+/*......BACK TO PRODUCTS STYLING.....*/ 
+
+#back  {
+    margin-top:140px;
+}
+
+#back h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    font-weight: 400;
+    color: #9B9B9B;
+    text-align: left;
+    margin-top:145px;
+    padding-left: 19px;
+    background: url('../images/left-arrow.svg') no-repeat;
+    background-size: 7px;
+    background-position: 0% 11%;
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+
+/*......COLUMN 1 STYLING.....*/
+
+.column1 {
+    width:40%;
+}
+
+.column1 h1 {
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid #F75C03;
+    padding-bottom: 20px;
+    width: 40px;
+}
+
+.column1 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight:300;
+}
+
+#prodescription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85em;
+    font-weight:300;
+    color:black;
+}
+
+.roasttype h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight:400;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#circle1 {
+    background-color: #C18A56;
+}
+
+#circle2 {
+    background-color: #835A3E;
+}
+
+#circle3{
+    background-color: #36221A;
+}
+
+#quantity {
+    float: right;
+    position: relative;
+    left: -39px;
+    top: -39px;
+}
+
+input{
+    width: 40px;
+    height: 40px;
+    border-radius: 1px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#button {
+    clear:both;
+}
+
+/*TAKKAR*/
+.button {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    background-color: #F75C03;
+    border: 2px solid #F75C03;
+    border-radius: 50px;
+    display: block;
+    text-decoration: none;
+    padding: 14px 14px 14px 14px;
+    width: 120px;
+    text-align: center;
+}
+
+/*TAKKAR HOVER*/
+.button:hover {
+    color: #F75C03;
+    border: 2px solid #F75C03;
+    background-color: white;
+    font-size: 14px;
+}
+
+.column2 {
+    width:40%;
+    float: right;
+    position: relative;
+    clear: both;
+    bottom: 474px;
+}
+
+.column2:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*......COLUMN 2 STYLING.....*/
+
+#mainimage img {
+    height: 386px;
+    padding-left: 35px;
+    width:300px;
+}
+
+#thumbnail {
+    display: inline-block;
+}
+
+#thumbnail img {
+    width: 80px;
+    height:80px;
+    padding:20px;
+}
+
+/*......CONTAINER 3 STYLING.....*/
+
+.cont-3 {
+    margin-top:250px;
+}
+
+#skuggi {
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    width: 40%;
+    height: 10px;
+    border-radius: 90%;
+    display: block;
+    margin: 0 auto;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+    margin-top: 200px;
+    margin-left: 278px;
+}
+
+#otherproducts {
+    margin-top:435px;
+}
+
+#like {
+    clear:both;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    border-bottom:  1px solid #dd3b2a;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -200px;
+    position: relative;
+    width: 40%;
+    padding-bottom: 20px
+
+}
+
+/*......BOTTOM IMAGES STYLING.....*/
+
+#otherimages {
+    display:inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#image1, #image2, #image3 {
+    float:left;
+}
+
+ #image1 img { 
+    width:250px;
+    height:330px;
+    margin-bottom: 92px;
+}
+
+ #image1 h3:before {
+    border: 1px solid #dd3b2a;
+    content: '';
+    display: block;
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    margin: -67px 0 0 -380px;
+    bottom: 83px;
+    width: 100px;
+}
+
+ #image1 h3 {
+    padding-left: 68px;
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: -50px;
+    width: 50px;
+   
+}
+#image1 h3:after {
+    float: left;
+}
+
+#image2 img {
+    width:250px;
+    height:300px;
+    margin-left: 80px;
+    margin-bottom: 90px;
+}
+
+
+ #image2 h3:before {
+    border: 1px solid #dd3b2a;
+    content: '';
+    display: block;
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    margin: -67px 0 0 -52px;
+    bottom: 83px;
+    width: 100px;
+}
+
+ #image2 h3 {
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: -24px;
+    width: 50px;
+    padding-left: 174px;
+}
+
+#image2 h3:after {
+    float: left;
+}
+
+#image3 img {
+    width:250px;
+    height:300px;
+    margin-left: 80px;
+    margin-bottom: 90px;
+}
+
+ #image3 h3:before {
+    border: 1px solid #dd3b2a;
+    content: '';
+    display: block;
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    margin: -67px 0 0 272px;
+    bottom: 83px;
+    width: 100px;
+}
+
+ #image3 h3 {
+    padding-left: 155px;
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: -24px;
+    width: 50px;
+   
+}
+
+#image3 h3:after {
+    float: left;
+}
+
+#image1 h4 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight:300;
+    text-align: center;
+    height: 0px;
+    position: relative;
+    margin-top: -18px;
+}
+
+#image2 h4{
+color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight:300;
+    text-align: center;
+    height: 0px;
+    position: relative;
+    margin-top: -18px;
+    padding-left: 70px;
+ }
+
+#image3 h4{ 
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight:300;
+    text-align: center;
+    height: 0px;
+    position: relative;
+    margin-top: -18px;
+    padding-left: 60px;
+ }
+
+/*..... FOOTER STYLING..... */
+
+footer {
+    background-color:#6A2E35;
+    width: 100%;
+    max-height: 482px;
+    margin-top:-240px;
+}
+
+footer:before {
+    content:'';
+    display: table;
+}
+
+footer:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+    height:100%;
+}
+
+.row {
+    width:100%;
+}
+
+.row:before {
+    content:'';
+    display: table;
+}
+
+.row:after {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    letter-spacing: 7px;
+}
+
+footer p, h3, h4{
+    color:#fff;
+}
+
+/* COLUMNS STYLING*/
+
+
+.col-1 {
+    float: left;
+    padding-top: 25px;
+    padding-left:100px;
+    width: 40%;
+}
+
+.col-2 {
+    float: right;
+    text-align: right;
+    line-height: 10px;
+    width: 30%;
+    padding-right:100px;
+        padding-top: 94px;
+        padding-bottom: 24px;
+}
+
+/* NAVIGATION TO TOP OF PAGE STYLING*/
+
+.up {
+    background: url('../images/up.svg') no-repeat;
+    background-size: 26px;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 60px;
+    display: block;
+    
+}
+
+.information p{
+    line-height: 90%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight:300;
+    letter-spacing: 1.55px;
+
+}
+/* SOCIALICONS STYLING*/
+
+.socialicons ul {
+    position: relative;
+    left: 50px;
+}
+
+.socialicons ul li  {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socialicons .instagram {
+    height: 30px;
+    width: 38px;
+    background: url('../images/instagram1.svg') 50% 50% no-repeat;
+    margin-right: 10px;
+    background-size:28px;
+}
+
+.socialicons .instagram:hover {
+    transform: scale(0.93);
+}
+
+.socialicons .twitter{
+    height: 30px;
+    width: 38px;
+    background: url('../images/twitter.svg') 50% 50% no-repeat;
+    margin-right: 10px;
+    background-size:48px;
+}
+
+.socialicons .twitter:hover {
+    transform: scale(0.93);
+}
+
+.socialicons .facebook{
+    height: 30px;
+    width: 38px;
+    background: url('../images/facebook.svg') 50% 50% no-repeat;
+    margin-right: 40px;
+    background-size:28px;
+}
+
+.socialicons .facebook:hover {
+    transform: scale(0.93);
+}
+
+/* INTOUCH STYLING*/
+.intouch p {
+    font-size: 0.650em;
+    line-height: 3px;
+}
+
+.textstyle {
+   font-size: 1.0em;
+}
+
+.intouch input {
+    width: 56%;
+    margin-bottom: 11px;
+}
+
+/* BOTTOM BAR STYLING*/
+.bottom {
+    background-color: #53272C;
+    height: 65px;
+    width: 100%;
+}
+
+.bottom p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:0.75em;
+}
+
+#copy {
+    float:left;
+    padding-left: 100px;
+    padding-top: 12px;
+   
+}
+ #design{
+    float: right;
+    margin-right: 100px;
+    padding-top: 12px;
+}
+
+
+#magn {
+    border: 2px solid black;
+    border-radius: 90px;
+    display: inline-block;
+    width: 100px;
+}
+
+#magnMinus {
+    display: inline-block;
+}
+
+#magnPlus {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+

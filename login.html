@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sign In / Sign Up</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header id="header" class="productBannerLogo">
+		<div class="nav-wrap clearfix" id="fixedbar">
+				<div class="container clearfix">
+					<div class="logo" id="logo">
+						<a href="index.html" title="Forsíða">Roosters Logo</a>
+					</div>
+					<nav id="navigation">
+						<ul id="fixednav">
+							<li><a href="vorur.html">PRODUCTS</a></li>
+							<li><a href="login.html" class="activeNav" id="userChange">USER</a></li>
+							<li><a id="basketNav" href="basket.html">BASKET</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+	</header>
+	<main>
+		<div class="cont-2">
+			<div id="signin">
+				<div id="formuser" ><!--The action attribute specifies where to send the form-data when a form is submitted-->
+					<h2>LOG IN</h2><h3>Returning customer</h3>
+						<div id=invalidLogin> </div>
+						<div id="input">
+							<input type="text" name="emailaddress" id="loginaddress" placeholder ="Email Address"> <!-- type-text ... Specifies the type <input> element to display and name Specifies the name of an <input> element-->
+							<input type="password" name="password" id="loginpassword" placeholder ="Password">
+						</div>
+						<p class="forgot"><a href="#">Forgot Password?</a></p>
+
+						<button onclick="signIn()" class="button" id="buttonSignIn">LOGIN</button>
+				</div>
+			<div id=invalidLogin> </div>
+			</div>
+			<div id="signup">
+		        <div id="formuser" >
+		        	<h2>SIGN UP</h2>
+					<h3>New to Roosters?</h3>
+			        <input type="text" name="fname" id="fname" placeholder ="First Name">
+			        <input type="text" name="lname" id="lname" placeholder ="Last Name">
+			        <input type="text" name="emailaddress" id="emailaddress" placeholder ="Email Address">
+			        <input type="password" name="password" id="password" placeholder ="Password">
+			        <input type="password" name="cpassword" id="cpassword" placeholder ="Confirm Password">
+							<p id="wrongPass"></p>
+			        <button  href="index.html" onclick="createAccount()" value="save" class="button" id="buttonSignUp">CREATE ACCOUNT</button>
+		    	</div>
+		    </div>  <!-- close signup-->
+		</div><!-- close cont-2-->
+		<footer class="clearfix" id="footer">
+			<div id="upDiv">
+				<a href="#header" class="up" title="Go back to the top of the page"></a>
+			</div>
+			<div class="row">
+				<div class="column1">
+					<div class="information">
+						<h2> ROOSTERS </h2>
+						<p class="location">Bankastraeti 8</p>
+						<p class="address">101 Reykjavik</p>
+						<p class="country">Iceland</p>
+						<a href="tel:8621562"><p>+354 8621562</p></a>
+						</div><!--close information div-->
+				</div><!--close col-1 div-->
+				<div class="column2">
+					<h3 class="textstyle"> Connect with us:</h3>
+					<div class="socialicons">
+						<ul>
+							<li class="instagram"><a target="_blank" title="Visit our Instagram profile" href="http://instagram.com"></a></li>
+							<li class="twitter"><a target="_blank" title="Visit our Twitter profile" href="http://twitter.com"></a></li>
+							<li class="facebook"><a target="_blank" title="Visit our Facebook profile" href="http://facebook.com"></a></li>
+						</ul>
+					</div><!--close socialicons div-->
+					<div class="intouch">
+						<h4 class="textstyle"> roosters@roosters.is</h4><br>
+						<input type="text" name="regemail" placeholder ="Your email here">
+						<p> Stay updated with ROOSTERS.</p>
+						<p> Sign up for stories,coffee tips and brewing equipment!</p>
+					</div><!--close intouch div-->
+				</div><!--close COL-2 div-->
+			</div><!--close row div-->
+			<div class="bottom">
+				<div id="bottomLeft">
+					<p id="copy">	&copy; 2016 ROOSTERS EHF. All Rights Reserved.</p>
+				</div>
+				<div id="bottomRight">
+					<p id="design">Designed and built by Group Jumbo. </p>
+				</div>
+			</div><!--close bottom div-->
+		</footer>
+
+</main>
+<script src="javascript/login.js"></script>
+<script type="text/javascript" src="javascript/gogn.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+<script type="text/javascript" src="javascript/lightbox-plus-jquery.js"></script>
+</body>
+</html>
